@@ -1,0 +1,28 @@
+footer{
+    background-color: #454955;
+    color: white;
+    padding: 10px 20px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.footer-logo{
+    max-width: 100%;
+}
+.footer-contact, .footer-links{
+    text-align: left;
+}
+.footer-links ul, .footer-social ul{
+    list-style: none;
+}
+.footer-links li, .footer-social li{
+    margin-bottom: 5px;
+}
+.footer-bottom{
+   margin-top: 20px;
+   border-top: 1px solid #fff;
+   padding-top: 12px;
+   text-align: center;
+}
