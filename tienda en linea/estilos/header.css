@@ -1,0 +1,47 @@
+
+.myHeader{
+    z-index: 2;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  /* MEDIA QUERY para pantallas medianas */
+/* @media screen and (min-width: 601px) and 
+(max-width: 1024px){
+    .myHeader{
+        font-size: 3.8vw;
+    }
+    nav li a{
+        font-size: 2.5vw;
+    }
+} */
+/* Media Query para pantallas pequeñas */
+/* @media screen and (max-width: 600px){
+    header{
+        grid-template-columns: 1fr;   
+        justify-items: center;
+    .logo{
+        font-size: 3.6vw;
+    }
+    nav li a{
+        font-size: 3vw;
+    }
+    .container{
+        order: -1;
+    }
+}
+} */
