@@ -2,7 +2,10 @@
 .myHeader{
     z-index: 2;
   }
-  
+.compra{
+    height: 30px;
+}
+
   /* Page content */
   .content {
     padding: 16px;
